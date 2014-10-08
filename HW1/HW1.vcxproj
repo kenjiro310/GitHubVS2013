@@ -81,14 +81,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\example3.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\InitShader.cpp" />
+    <ClCompile Include="..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\example3.cpp" />
+    <ClCompile Include="..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\InitShader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\Angel.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\CheckError.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\mat.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\vec.h" />
+    <None Include="..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\fshader23.glsl" />
+    <None Include="..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\vshader23.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

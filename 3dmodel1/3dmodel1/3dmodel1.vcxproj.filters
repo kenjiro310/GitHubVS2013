@@ -13,21 +13,29 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{fc844d7b-8d30-4a61-ba5a-7a7a5537eebb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\example3.cpp">
+    <ClCompile Include="l3dassimpimport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\InitShader.cpp">
+    <ClCompile Include="textfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\fshader23.glsl">
-      <Filter>Resource Files</Filter>
+    <ClInclude Include="textfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dirlightdiffambpix.frag">
+      <Filter>shaders</Filter>
     </None>
-    <None Include="..\..\..\..\..\Google Drive\School\CSc 4820\HomeWork\HW1\vshader23.glsl">
-      <Filter>Resource Files</Filter>
+    <None Include="dirlightdiffambpix.vert">
+      <Filter>shaders</Filter>
     </None>
   </ItemGroup>
 </Project>
